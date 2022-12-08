@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
+
+module.exports = {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      animation: {
+        ping: "ping 2s linear infinite",
+      },
+    },
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
+      amber: colors.amber,
+      blue: colors.blue,
+      green: colors.green,
+      red: colors.red,
+      orange: colors.orange,
+      slate: colors.slate,
+      void: "#0a0a0a",
+      "void-light": "#0f0f0f",
+      "off-white": "#f3f3f3",
+      raspberry: "#e91e63",
+      magenta: "#c2185B",
+      grape: "#9c27B0",
+      plum: "#5727B0",
+      blueberry: "#272aB0",
+      starlight: "#276BB0",
+      sky: "#57acdc",
+      frost: "#57DcBe",
+      mint: "#60c689",
+    },
+    fontFamily: {
+      sans: ["Poppins"],
+    },
+    fontSize: {
+      sm: "0.8rem",
+      base: "0.95rem",
+      xl: "1.25rem",
+      headline: "6vw",
+      "2xl": "1.563rem",
+      "3xl": "1.953rem",
+      "4xl": "2.441rem",
+      "5xl": "3.052rem",
+    },
+  },
+  plugins: [require("daisyui")],
+  daisyui: {
+    styled: true,
+    themes: ["light", "dark"],
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
+    darkTheme: "dark",
+  },
+  darkMode: "class",
+};

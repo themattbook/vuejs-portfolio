@@ -1,5 +1,5 @@
 <template>
   <div>
-    <home-component />
+    <github-component />
   </div>
 </template>
