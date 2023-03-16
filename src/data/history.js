@@ -2,10 +2,10 @@ export const workHistory = [
   {
     id: 1,
     dateRange: "September 2022 - Present",
-    jobTitle: "Vuejs Developer",
-    company: "Polestar DFN Inc.",
+    jobTitle: "Frontend Developer",
+    company: "Digital Freight Network DFN",
     description:
-      "FullStack development of a comprehensive Vuejs SPA using Vue 3 and TypeScript.",
+      "FullStack development of a comprehensive Vue 3 SPA built to act as a broker for Shippers and Carriers across Canada. Working with a small team of talented developers to carry the application to MVP.",
     techUsed: "Vue 3, TypeScript, Pinia, Tailwindcss, Jest, Bitbucket",
   },
   {
