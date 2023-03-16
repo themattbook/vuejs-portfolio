@@ -3,9 +3,9 @@ export const workHistory = [
     id: 1,
     dateRange: "September 2022 - Present",
     jobTitle: "Frontend Developer",
-    company: "Digital Freight Network DFN",
+    company: "DFN Freight Exchange Inc.",
     description:
-      "FullStack development of a comprehensive Vue 3 SPA built to act as a broker for Shippers and Carriers across Canada. Working with a small team of talented developers to carry the application to MVP.",
+      "Frontend Developer originally contracted to choose tools and frameworks for building an intuitive UI between Carriers and Shippers. Position grew into a full-time UI development position tasked with ongoing UI/UX development on a Vue application using TypeScript, Pinia, and Tailwind. Currently working on moving the project from startup to MVP.",
     techUsed: "Vue 3, TypeScript, Pinia, Tailwindcss, Jest, Bitbucket",
   },
   {
