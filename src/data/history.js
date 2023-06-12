@@ -2,30 +2,39 @@ export const workHistory = [
   {
     id: 1,
     dateRange: "September 2022 - Present",
-    jobTitle: "Vuejs Developer",
-    company: "Polestar DFN Inc.",
+    jobTitle: "Frontend Developer",
+    company: "DFN Freight Exchange Inc.",
     description:
-      "FullStack development of a comprehensive Vuejs SPA using Vue 3 and TypeScript.",
+      "As a Frontend Developer, I was brought into the company as a contractor to build a functional frontend SPA from scratch, working with the company CTO in determining the technology and methodology used to carry a product to MVP. Worked in a startup environment using Vue 3, TypeScript, Pinia, Prisma, NestJS, Jest, Cypress, Amazon Cognito, Amazon EB, SonarCloud, and Bitbucket.",
     techUsed: "Vue 3, TypeScript, Pinia, Tailwindcss, Jest, Bitbucket",
   },
   {
     id: 2,
-    dateRange: "September 2021 - Present",
-    jobTitle: "Customer Success Manager",
+    dateRange: "August 2019 - September 2022",
+    jobTitle: "FullStack Developer",
     company: "OpenTeknik",
     description:
-      "Strategic and supportive partner for clients at every stage of the buying and interaction process. Focus on building loyalty to ensure long-term client retention by presenting product information, addressing customer issues, and helping the sales team with marketing and renewal strategies. Occasional development, but mostly working to make the client experience flawless at every turn.",
+      "As a Fullstack Developer, I worked with the creators of Open Source Social Network to improve their company website as well as a social media framework client for customers.",
     techUsed:
       "Customer Support, New Business Development, Process Improvement, Software as a Service (SaaS), HTML",
   },
   {
     id: 3,
-    dateRange: "January 2015 - Present",
+    dateRange: "January 2015 - August 2019",
+    jobTitle: "FullStack Developer",
+    company: "GetBusy LLC.",
+    description:
+      "Designed and co-developed a social media automation platform using Open Source Social Network, React, Node, Express, Bootstrap, HTML/CSS, and more using Agile methodology to take the product from conception to production.",
+    techUsed: "MySQL, PHP, JavaScript, React.js, Front-End Development, HTML",
+  },
+  {
+    id: 4,
+    dateRange: "March 2008 - Present",
     jobTitle: "Freelance Web Developer",
     company: "Self Employed",
     description:
-      "Full-Stack application development using a variety of technologies including JavaScript, Node.js, React.js, Next.js, Vue.js, Alpine.js, Express, Bootstrap, Bulma, Tailwindcss, and much more.",
+      "Designed and developed several websites for paying clients using HTML, CSS, Javascript, Vue, and ReactJS.",
     techUsed:
-      "JavaScript, React.js, Vuejs, Front-End Development, HTML, Node.js",
+      "JavaScript, ReactJS, Vue, Front-End Development, HTML, CSS, Tailwindcss, Bootstrap, Node.js",
   },
 ];
